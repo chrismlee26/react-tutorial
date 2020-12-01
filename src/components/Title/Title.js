@@ -1,6 +1,7 @@
 import React from 'react'
 import './Title.css';
 import { NavLink } from 'react-router-dom'
+import RandomSpace from '../RandomSpace/RandomSpace'
 
 function Title() {
   return (
@@ -19,6 +20,7 @@ function Title() {
               className="nav-link" 
               activeClassName="nav-link-active"
               to="/about">About</NavLink>
+            <RandomSpace />
         </div>
 
       </header>
